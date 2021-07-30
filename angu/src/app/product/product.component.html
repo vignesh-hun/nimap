@@ -1,0 +1,18 @@
+<form [formGroup]="productForm"  style="margin-top: 20px;
+margin-right: 20px;margin-left: 30px" (ngSubmit)="send()">
+    <div >
+        <label>Product Name </label>
+    <br>  
+    <input type="text" formControlName="name">
+    <br>
+    <br> 
+    <label>Category </label>
+    <br> 
+    <select *ngIf="categorylist.length != 0"  formControlName="categogyId" >
+        <option value="" selected disabled>Select Category</option>
+        <option  *ngFor="let item of categorylist" [value]="item?.id">{{ item?.name }} </option>
+      </select>
+    </div>
+<br>
+    <input type="submit">
+  </form>
