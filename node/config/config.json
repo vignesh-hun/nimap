@@ -1,0 +1,57 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "nimap@123",
+    "database": "nimap",
+    "host": "localhost",
+    "port": "5432",
+    "dialect": "postgres",
+    "operatorsAliases": false,
+    "dialectOptions": {
+      "useUTC": false 
+    },
+    "timezone": "+05:30",
+    "logging": false
+  },
+  "uat": {
+    "username": "postgres",
+    "password": "nimap@123",
+    "database": "digital_gold",
+    "host": "172.16.4.26",
+    "port": "8903",
+    "dialect": "postgres",
+    "operatorsAliases": false,
+    "dialectOptions": {
+      "useUTC": false 
+    },
+    "timezone": "+05:30",
+    "logging": false
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "operatorsAliases": false,
+    "dialectOptions": {
+      "useUTC": false 
+    },
+    "timezone": "+05:30",
+    "logging": false
+  },
+  "production": {
+    "username": "muthoot",
+    "password": "MuT#00t@321",
+    "database": "muthoot_exim",
+    "host": "172.16.3.34",
+    "port": "5432",
+    "dialect": "postgres",
+    "operatorsAliases": false,
+    "dialectOptions": {
+      "useUTC": false 
+    },
+    "timezone": "+05:30",
+    "logging": false
+  }
+}
